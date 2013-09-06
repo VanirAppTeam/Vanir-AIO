@@ -3,6 +3,7 @@ package com.mbq.vaniraio.Paid.Options;
 import android.app.Activity;
 import android.os.Bundle;
 
+// Need to refactor this to OptionsActivity lol
 public class OptiondActivity extends Activity {
 	
 	// Im only here to open the Options menu, lulz
