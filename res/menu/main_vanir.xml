@@ -1,0 +1,130 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    
+    <group android:id="@+id/info_group">
+        
+        <item 
+            android:id="@+id/info"
+            android:title="@string/menu_info">
+            
+            <menu>
+                
+                <item
+                     android:id="@+id/menu_full_changelog" 
+                     android:title="@string/menu_full_changelog"/>
+                <item android:id="@+id/version" android:title="@string/menu_version"/>
+                
+            </menu>
+            
+        </item>
+    </group>
+    
+    <group android:id="@+id/groups_themes">
+        
+        <item 
+            android:id="@+id/themes" 
+            android:title="@string/menu_theme">
+            
+            <menu>
+                <item 
+                    android:id="@+id/Holo"
+                     android:title="@string/menu_theme_holo"/>
+                
+                <item
+                     android:id="@+id/Holo_Light" 
+                     android:title="@string/menu_theme_holo_light"/>
+                
+                <item 
+                    android:id="@+id/Holo_Light_DAB" 
+                    android:title="@string/menu_theme_holo_light_darkactionbar"/>
+                <item android:id="@+id/blue_actionbar" android:title="Blue ActionBar"/>
+                <item android:id="@+id/theme_inverted" android:title="Inverted"/>
+                <item android:id="@+id/theme_red" android:title="Red"/>
+                <item android:id="@+id/light_theme" android:title="Light"/>
+                
+            </menu>
+            
+        </item>
+        
+    </group> 
+    
+    <item 
+        
+        android:id="@+id/deuces"
+        android:title="@string/menu_exit" 
+        android:showAsAction="ifRoom|withText|collapseActionView">
+        
+        </item>
+        
+    <group android:id="@string/_id_facebook">
+        
+        <item 
+            android:id="@string/_id_facebook" 
+            android:title="@string/facebook">
+            
+            <menu>
+                
+                <item android:id="@+id/fb_desktop" 
+                    android:title="@string/desktop"/>
+                <item android:id="@+id/fb_mobile"
+                     android:title="@string/mobile"/>
+                
+            </menu>
+            
+        </item>
+        
+        <item 
+            android:id="@+id/twitter" 
+            android:title="@string/twitter">
+            
+            <menu>
+                <item android:id="@+id/twitter_desktop" 
+                    android:title="@string/desktop"/>
+                <item android:id="@+id/twitter_mobile" 
+                    android:title="@string/mobile"/>
+                
+            </menu>
+            
+        </item>
+        
+    </group>
+    
+    <item android:id="@+id/q" 
+        android:title="Survey">
+        
+    </item>
+    
+    <item 
+        android:id="@+id/hwa_toggle" 
+        android:checkable="false" 
+        android:titleCondensed="HWA" 
+        android:title="HardwareAcceleration">
+        
+        <menu>
+            
+            <group 
+                android:id="@+id/group1"
+                 android:checkableBehavior="single">
+                
+                <item 
+                    android:id="@+id/hwa_true" 
+                    android:title="True" 
+                    android:showAsAction="never"/>
+                
+                <item 
+                    android:id="@+id/hwa_false"
+                     android:title="False" 
+                     android:showAsAction="never"/>
+                
+                <item android:id="@+id/hwa_info"
+                     android:titleCondensed="Info" 
+                     android:title="Information" 
+                     android:checkable="false" 
+                     android:showAsAction="never"/>
+                
+            </group>
+            
+        </menu>
+        
+    </item>
+
+</menu>

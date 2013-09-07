@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<changelog>
+    
+    <release version="0.1.1" versioncode="2">
+        <change>Fixed the FC on startup</change>
+        <change>Remove some unused imports</change>
+        <change>Switch order derp</change>
+        <change>String changes</change>
+        <change>Added a welcome page :)</change>
+        <change>Changelog now pops up onStart</change>
+        <change>Better MenuDrawer color</change>
+        <change>Minor (2odp) MenuDrawer layout change</change>
+        <change>Added a ton of new themes (HUGE thanks to http://jgilfelt.github.io/android-actionbarstylegenerator/)</change>
+        <change>I'l --> I'll</change>
+        <change>Added a phat colors.xml (Thanks to the user on StackOverflow)</change>
+        <change>Removed styles.xml in the values-v11 and values-v14 folders</change>
+        <change>Switch to using Crouton. Crouton is cool. js</change>
+        <change>CROUTON WILL ONLY RUN ONCE YAAAAAY</change>
+    </release>      
+    
+    <release version="0.1" versioncode="1">
+        <change>Initial release of this one</change>
+    </release>      
+    
+</changelog>

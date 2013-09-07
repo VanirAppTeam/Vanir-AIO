@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mbq.vaniraio.Paid"
+    android:versionCode="2"
+    android:versionName="0.1.1" >
+
+    <uses-sdk
+        android:minSdkVersion="18"
+        android:targetSdkVersion="18" />
+    
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:hardwareAccelerated="true"
+        android:label="@string/app_name">
+        
+        <activity
+            android:name="com.mbq.vaniraio.Paid.MainVanirActivity"
+            android:label="@string/app_name" >
+            
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            
+        </activity>
+        
+    <activity
+        android:name="com.mbq.vaniraio.Social.Desktop.DesktopTwitter" >
+        
+        <intent-filter>
+            <category android:name="android.intent.category.DEFAULT" /> 
+        </intent-filter>    
+     </activity>   
+     
+    <activity android:name="com.mbq.vaniraio.Social.Desktop.DesktopFacebook" />   
+     
+    <activity
+        android:name="com.mbq.vaniraio.Social.Mobile.MobileTwitter" >
+        
+        <intent-filter>
+            <category android:name="android.intent.category.DEFAULT" /> 
+        </intent-filter>    
+     </activity>      
+     
+    <activity
+        android:name="com.mbq.vaniraio.Social.Mobile.MobileFacebook" >
+        
+        <intent-filter>
+            <category android:name="android.intent.category.DEFAULT" /> 
+        </intent-filter>    
+     </activity>      
+        
+    </application>
+
+</manifest>

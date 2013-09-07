@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <PreferenceCategory android:title="Crouton">
+        
+        <PreferenceScreen 
+            android:title="Crouton" 
+            android:summary="Options regarding Crouton.">
+            
+            <SwitchPreference 
+                android:summary="If disabled, no croutons will be displayed." 
+                android:title="Crouton toggle"
+                android:fragment="com.mbq.vaniraio.Paid.Options.CroutonPrefs"
+                android:onClick="ToastOnOff" android:enabled="false"/>
+            </PreferenceScreen>
+        
+    </PreferenceCategory>
+    
+    <PreferenceCategory 
+        android:title="System"
+        android:summary="System-wide options">
+        
+    </PreferenceCategory>
+    <Preference android:title="Settings are coming soon."/>
+    
+
+</PreferenceScreen>

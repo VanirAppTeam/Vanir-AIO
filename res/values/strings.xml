@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Vanir AIO</string>
+    <string name="options">Options</string>
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    
+    <string-array name="Sites">
+        <item>Welcome</item>
+        <item >MBQonXDA.net/Vanir</item>
+        <item >MBQonXDA.net/Vanir/Extras</item>
+        <item >MBQonXDA.net/Vanir/GApps</item>
+        <item >Options</item>
+    </string-array>
+    
+        <string name="menu_info">Info</string>
+        <string name="menu_full_changelog">Full changelog</string>
+        <string name="menu_version">Version</string>
+        <string name="menu_theme">Theme</string>
+        <string name="menu_theme_holo">Holo</string>
+        <string name="menu_theme_holo_light">Holo Light (Default)</string>
+        <string name="menu_theme_holo_light_darkactionbar">Holo Light DarkActionBar</string>
+        <string name="menu_exit">Exit</string>
+        <string name="on_exit">Goodbye</string>
+        <string name="holo_theme_set">Holo theme set!</string>
+        <string name="holo_light_dab_theme_set">Holo Light DarkActionBar set!</string>
+        <string name="holo_light_theme_set">Holo Light Theme set!</string>
+        <string name="blue_ab_theme_set">Blue ActionBar Theme set!</string>
+        <string name="inverted_theme_set">Inverted Theme set!</string>  
+        <string name="red_theme_set">Red Theme set!</string>    
+        <string name="light_theme_set">Light Theme set!</string>  
+        <string name="lazy">Too lazy. Ill code it in later.</string>
+        <string name="_id_facebook">\@+id/facebook</string>
+        <string name="facebook">Facebook</string>
+        <string name="desktop">Desktop</string>
+        <string name="mobile">Mobile</string>
+        <string name="twitter">Twitter</string>
+        <string name="welcome">Welcome to the Vanir AIO Application!</string>
+        <string name="laaaaaame">/Lame Welcome page</string>
+        <string name="lolz">Dont touch me pls</string>
+        <string name="thanks_bro">Thanks for purchasing me. :D</string>
+        <string name="survey">Dont forget to check out the survey in the menu :)</string>
+        <string name="toasty">It just got Toasty in here.</string>
+        <string name="im_alive">Thanks for bringing me back. &lt;3</string>
+        <string name="not_ready_yet">Settings arent quite ready yet, sorry! :(</string>
+        <string name="v_prefs">AIO Vanir Preferences!</string>
+        <string name="dummy_enabled">DUMMY ENABLED // Not really enabled</string>
+        <string name="dummy_disabled">DUMMY DISABLED // Not really enabled</string>
+        <string name="idk_yet">Added this FlipView for fun. Maybe Ill do something with it, idk.</string>
+
+</resources>
